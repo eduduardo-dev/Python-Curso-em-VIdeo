@@ -1,6 +1,0 @@
-nome = input ('Qual é seu nome? ')
-print('Olá ',nome, '! Prazer em te conhecer! ' )
-num1 = int(input('Por favor, informe o primeiro numero: '))
-num2 = int(input('Agora o segundo numero: '))
-soma = int(num1 + num2)
-print('a soma entre o numero ', num1, ' e o ', num2, ' é igual a ', soma)
