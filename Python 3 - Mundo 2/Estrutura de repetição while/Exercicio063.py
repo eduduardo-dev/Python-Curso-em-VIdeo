@@ -1,0 +1,11 @@
+XTermos = int(input('Quantos termos deseja mostrar? '))
+Term1 = 0
+Term2 = 1
+print('{} → {}'.format(Term1, Term2), end='')
+Cont = 3
+while Cont <= XTermos:
+    Term3 = Term1 + Term2
+    print(' → {}'.format(Term3), end='')
+    Term1 = Term2
+    Term2 = Term3
+    Cont += 1
